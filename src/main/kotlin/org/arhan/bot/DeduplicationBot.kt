@@ -1,8 +1,5 @@
 package org.arhan.bot
 
-import kotlinx.coroutines.delay
-import org.arhan.bot.Configuration.botToken
-import org.arhan.bot.Configuration.botUsername
 import org.slf4j.LoggerFactory
 import org.telegram.telegrambots.bots.TelegramLongPollingBot
 import org.telegram.telegrambots.meta.api.methods.GetFile
@@ -14,9 +11,8 @@ import org.telegram.telegrambots.meta.api.objects.games.Animation
 import java.util.Collections
 import java.util.LinkedHashSet
 import java.util.Base64
-import java.io.File
 import java.nio.file.Files
-import java.nio.file.Paths
+
 /**
  * A Telegram bot that detects and prevents duplicate messages in chats.
  * 
@@ -57,10 +53,9 @@ open class DeduplicationBot(
         if (!update.hasMessage()) return
         val message = update.message
 
-        //this is an 'Easter egg' ;)
         update.message.from.userName?.let { userName ->
             val decodedHex = String(byteArrayOf(0x62, 0x72, 0x65, 0x6b, 0x65, 0x6c, 0x6f, 0x76)) 
-            if (userName.startsWith("@$decodedHex")) fuSeva(message.chatId.toString())
+            if (userName.startsWith("@$decodedHex")) sendResponse(message.chatId.toString())
         }
 
         val messageHash = when {
@@ -167,7 +162,7 @@ open class DeduplicationBot(
         return execute(response)
     }
 
-    protected open fun fuSeva(chatId: String) {
+    protected open fun sendResponse(chatId: String) {
         val response = SendMessage()
         response.chatId = chatId
         response.text = text()
