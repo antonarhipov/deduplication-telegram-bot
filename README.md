@@ -16,12 +16,18 @@ A Telegram bot that detects and prevents duplicate messages in chats. The bot ke
 3. Set the following environment variables:
    ```bash
    export TELEGRAM_BOT_TOKEN="your_bot_token_here"
-   export TELEGRAM_BOT_USERNAME="your_bot_username"  # Optional, defaults to "DeduplicationBot"
+   export TELEGRAM_BOT_USERNAME="your_bot_username"  # Optional, defaults to "DeduplicationCheckerBot"
    ```
 
 ## Building and Running
 
-Make sure you have JDK 17 or later installed.
+Make sure you have JDK 17 installed.
+
+### Dependencies
+- Kotlin 2.1.10
+- Telegram Bot API 6.9.7.1
+- Logback 1.2.11 for logging
+- JUnit 5.9.2 and MockK for testing
 
 ```bash
 # Build the project
@@ -36,7 +42,7 @@ Make sure you have JDK 17 or later installed.
 The bot can be configured using the following environment variables:
 
 - `TELEGRAM_BOT_TOKEN` (required): Your bot token from BotFather
-- `TELEGRAM_BOT_USERNAME` (optional): Your bot's username (defaults to "DeduplicationBot")
+- `TELEGRAM_BOT_USERNAME` (optional): Your bot's username (defaults to "DeduplicationCheckerBot")
 
 The bot keeps track of the last 10,000 messages by default. This can be modified by changing `MAX_MESSAGES_HISTORY` in the Configuration class.
 
@@ -48,6 +54,19 @@ Logs are written to both console and file:
 
 Log files are automatically rotated daily and kept for 30 days.
 
-## License
+## Usage
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Start a private chat with your bot on Telegram
+2. Add the bot to your group chat:
+   - Open your group
+   - Click on group settings
+   - Select "Administrators"
+   - Click "Add Admin"
+   - Search for your bot by username and add it
+
+The bot requires the following permissions in the group:
+- Read Messages
+- Send Messages
+- Delete Messages (optional, for automatic duplicate removal)
+
+Once added, the bot will automatically start monitoring messages for duplicates. When a duplicate message is detected, the bot will reply to the message indicating that it's a duplicate.
