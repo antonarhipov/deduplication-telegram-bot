@@ -1,0 +1,120 @@
+2025-01-31 14:47:44.532 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:47:44.581 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: null
+2025-01-31 14:47:44.635 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:47:44.651 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:47:44.700 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 14:47:44.707 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:47:46.836 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:47:46.869 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:47:48.937 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 14:47:48.952 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:47:51.005 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 14:47:51.010 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:47:53.223 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 14:47:53.227 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 14:47:53.234 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 14:47:53.244 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 14:50:02.608 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:02.663 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: null
+2025-01-31 14:50:02.723 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:02.741 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:02.777 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 14:50:02.785 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:04.901 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:04.913 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:06.979 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 14:50:06.986 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:09.025 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 14:50:09.030 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:11.186 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 14:50:11.191 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 14:50:11.196 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 14:50:11.206 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 14:50:38.531 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:38.599 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: null
+2025-01-31 14:50:38.661 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:38.678 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:38.715 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 14:50:38.726 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:40.793 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 14:50:40.800 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:42.851 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 14:50:42.867 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:44.892 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 14:50:44.912 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 14:50:47.000 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 14:50:47.007 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 14:50:47.013 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 14:50:47.022 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:19:07.640 [Test worker] WARN  Main - Invalid log level: INVALID. Using default level DEBUG
+2025-01-31 15:45:37.558 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 15:45:37.574 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:45:39.653 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 15:45:39.660 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:45:41.693 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 15:45:41.698 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:45:43.774 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:45:43.782 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 15:45:43.842 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 15:45:43.851 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:45:43.896 [Test worker] WARN  Main - Invalid log level: INVALID. Using default level DEBUG
+2025-01-31 15:52:25.096 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 15:52:25.124 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:52:27.421 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:52:27.427 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:52:29.548 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 15:52:29.554 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:52:31.617 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:52:31.630 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: <empty>
+2025-01-31 15:52:31.640 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 15:52:31.642 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:52:33.721 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:52:33.725 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:52:33.749 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:52:33.758 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 15:52:33.767 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 15:52:33.781 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:53:31.515 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 15:53:31.569 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: null
+2025-01-31 15:53:31.628 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 15:53:31.641 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 15:53:31.683 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 15:53:31.689 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:53:33.922 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:53:33.936 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:53:35.995 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 15:53:36.037 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:53:38.095 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 15:53:38.101 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:53:40.160 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:53:40.245 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: <empty>
+2025-01-31 15:53:40.266 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 15:53:40.269 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 15:53:42.351 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:53:42.357 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 15:53:42.387 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 15:53:42.391 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 15:53:42.398 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 15:53:42.409 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 16:23:26.333 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 16:23:26.390 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: null
+2025-01-31 16:23:26.442 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 16:23:26.453 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 16:23:26.494 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser:   Test   Message  
+2025-01-31 16:23:26.500 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 16:23:28.754 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 16:23:28.781 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 16:23:30.854 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: null
+2025-01-31 16:23:30.899 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 16:23:32.954 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: Test Message
+2025-01-31 16:23:32.967 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 16:23:35.048 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 16:23:35.084 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser2: <empty>
+2025-01-31 16:23:35.097 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: test message
+2025-01-31 16:23:35.102 [Test worker] WARN  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - Duplicate message detected from user testUser
+2025-01-31 16:23:37.186 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 16:23:37.195 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: <empty>
+2025-01-31 16:23:37.234 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
+2025-01-31 16:23:37.238 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 2
+2025-01-31 16:23:37.247 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 3
+2025-01-31 16:23:37.251 [Test worker] INFO  o.a.b.DeduplicationBotTest$TestableDeduplicationBot - New message received from user testUser: message 1
